@@ -20,7 +20,7 @@ describe('Javabuzz', function() {
 
   describe('knows when a number is', function() {
     it('divisable by 5', function() {
-      expect(javabuzz.isDivisibleByFive(5).toBe(true));
+      expect(javabuzz.isDivisibleByFive(5)).toBe(true);
     });
   });
 
