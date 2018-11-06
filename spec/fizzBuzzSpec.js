@@ -29,4 +29,16 @@ describe('Javabuzz', function() {
       expect(javabuzz.isDivisibleByFive(1)).toBe(false);
     });
   });
+
+  describe('Knows when a number is', function() {
+    it('divisable by 15', function() {
+      expect(javabuzz.isDivisibleByFifteen(15)).toBe(true);
+    });
+  });
+
+  describe('Knows when a number is NOT', function() {
+    it('divisable by 15', function() {
+      expect(javabuzz.isDivisibleByFifteen(16)).toBe(false);
+    });
+  });
 });
